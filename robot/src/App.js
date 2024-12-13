@@ -111,8 +111,6 @@ const App = () => {
         await haxidraw.goTo(0, 0);
         // await haxidraw.servo(1700);  // pen Down
         await haxidraw.servo(1000); // pen Up
-        await haxidraw.goTo(50, 50);
-        await haxidraw.goTo(0, 0);
     
     
         for (let i = 0; i < lines.length; i++) {
@@ -140,8 +138,7 @@ const App = () => {
     await haxidraw.goTo(0, 0);
     // await haxidraw.servo(1700);  // pen Down
     await haxidraw.servo(1000); // pen Up
-    await haxidraw.goTo(50, 50);
-    await haxidraw.goTo(0, 0);
+
 
 
     for (let i = 0; i < lines.length; i++) {        
